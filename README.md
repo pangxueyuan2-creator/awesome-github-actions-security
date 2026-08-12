@@ -32,6 +32,10 @@ All of these scanners use static analysis to detect misconfiguration and vulnera
 
 I'm currently using [all four of these scanners](https://github.com/johnbillion/plugin-infrastructure/blob/trunk/.github/workflows/reusable-workflow-lint.yml) on several of my repos. The scanners are complementary, they are all actively maintained, and together they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfiguration and vulnerabilities.
 
+## Change verification
+
+* [PatchWitness](https://github.com/pangxueyuan2-creator/patchwitness) independently verifies code changes against policy from a trusted base revision, including protected GitHub Actions workflows, and produces a portable Change Passport.
+
 ## Security posture analysis
 
 * [GitHub Action for OpenSSF Scorecard](https://github.com/ossf/scorecard-action)  
